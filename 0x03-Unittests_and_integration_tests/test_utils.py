@@ -1,10 +1,7 @@
- #!/usr/bin/env python3
-"""   
-Testing the utils.access_nested_map
-    """
-
+#!/usr/bin/env python3
+"""Testing the utils.access_nested_map"""
 from utils import access_nested_map
-from parameterized import parameterized, parameterized_class
+from parameterized import parameterized
 import unittest
 
 class TestAccessNestedMap(unittest.TestCase):
