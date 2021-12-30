@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+ #!/usr/bin/env python3
 """   
 Testing the utils.access_nested_map
     """
