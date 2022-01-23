@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
+"""
 
-from collections.abc import Callable
+    Returns:
+        function: that takes in multiplier and multiplies it with float
+    """
 
-x: Callable[[float, float], float]
+from typing import Callable
 
-def make_multiplier(multiplier: float) -> x:
-    return x
+
+
+def make_multiplier(multiplier: float) -> Callable[[float], float]:
+    return (lambda x: x * multiplier)
+
