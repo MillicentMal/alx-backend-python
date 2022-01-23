@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+    Returns:
+        tuple of string and float
+    """
 
 from typing import Tuple, Union
 
