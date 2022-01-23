@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+""" Adding all elements of a list
+"""
 
 from typing import List
 
