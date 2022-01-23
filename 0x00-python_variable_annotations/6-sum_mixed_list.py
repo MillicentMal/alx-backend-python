@@ -8,4 +8,5 @@ from typing import List, Union
 
 
 def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
+    """Sum of mixed type elements list"""
     return sum(mxd_lst)
