@@ -3,10 +3,10 @@
 correct duck-typed annotations
     """
 from types import NoneType
-from typing import Any, Iterable, Union
+from typing import Any,  Sequence, Union
 
 
-def safe_first_element(lst: Iterable[Any]) -> Union[Any, NoneType]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, NoneType]:
     """returns first element of the list Args:lst (Any)
     """
     if lst:
