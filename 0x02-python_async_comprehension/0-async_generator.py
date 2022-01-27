@@ -8,8 +8,9 @@ from pickletools import float8
 import random
 from typing import Generator
 
+
 async def async_generator() -> Generator[float, float, float]:
-    """Async generator 
+    """Async generator
 
     Yields:
         list: of random numbers
