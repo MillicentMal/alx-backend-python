@@ -4,7 +4,7 @@
     """
 
 import asyncio
-from random import random
+import random
 
 async def async_generator():
     """Async generator 
