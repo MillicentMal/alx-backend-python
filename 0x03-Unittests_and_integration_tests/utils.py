@@ -3,13 +3,8 @@
 """
 import requests
 from functools import wraps
-from typing import (
-    Mapping,
-    Sequence,
-    Any,
-    Dict,
-    Callable,
-)
+from typing import Mapping, Sequence, Any, Dict, Callable
+
 
 __all__ = [
     "access_nested_map",
@@ -18,7 +13,7 @@ __all__ = [
 ]
 
 
-def access_nested_map(nested_map: Mapping, path: Sequence) -> Any:
+def access_nested_map(nested_map, path: Sequence) -> Any:
     """Access nested map with key path.
     Parameters
     ----------
