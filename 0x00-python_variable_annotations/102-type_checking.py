@@ -5,7 +5,7 @@ Fixing typng using mypy
 from typing import Any, List, Tuple
 
 
-def zoom_array(lst: Tuple[Any, ...], factor: int = 2) -> List:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """
     mypy used to fix typing errors
     """
